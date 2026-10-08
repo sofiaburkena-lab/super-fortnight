@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Реклама и связи с общественностью</title>
+    <style>
+      :root {
+        --bg-color: #f4f6f8;
+        --text-color: #333;
+        --header-color: #2c3e50;
+        --accent-color: #3498db;
+        --card-bg: #ffffff;
+        --border-color: #e0e0e0;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Times New Roman", Times, serif; /* Шрифт как в документе */
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        line-height: 1.8;
+        padding: 40px 20px;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        background: var(--card-bg);
+        padding: 40px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        color: var(--header-color);
+        margin-bottom: 30px;
+        font-weight: normal;
+      }
+
+      .authors-block {
+        float: left;
+        width: 30%;
+        margin-right: 30px;
+        font-size: 0.95rem;
+        color: #555;
+        border-right: 1px solid var(--border-color);
+        padding-right: 20px;
+      }
+
+      .content-block {
+        overflow: hidden; /* Чтобы текст обтекал блок с авторами */
+      }
+
+      p {
+        margin-bottom: 15px;
+        text-align: justify;
+      }
+
+      h2 {
+        color: var(--header-color);
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-size: 1.5rem;
+      }
+
+      ol {
+        list-style-position: inside;
+        padding-left: 0;
+        margin-top: 15px;
+      }
+
+      li {
+        margin-bottom: 10px;
+        padding-left: 20px;
+        position: relative;
+      }
+
+      li::before {
+        content: counter(li);
+        counter-increment: li;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: var(--accent-color);
+        font-weight: bold;
+      }
+
+      ul {
+        list-style: none;
+        padding-left: 0;
+        margin-top: 10px;
+      }
+
+      ul li {
+        margin-left: 0;
+        padding-left: 0;
+        counter-reset: li;
+      }
+
+      ul li::before {
+        content: none;
+      }
+
+      a {
+        color: var(--accent-color);
+        text-decoration: underline;
+        word-break: break-all; /* Чтобы длинные ссылки переносились */
+      }
+
+      a:hover {
+        color: #2980b9;
+        text-decoration: none;
+      }
+
+      footer {
+        margin-top: 40px;
+        border-top: 1px solid var(--border-color);
+        padding-top: 20px;
+        text-align: center;
+        font-size: 0.9rem;
+        color: #777;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 20px;
+        }
+        .authors-block {
+          float: none;
+          width: 100%;
+          border-right: none;
+          border-bottom: 1px solid var(--border-color);
+          margin-bottom: 20px;
+          padding-right: 0;
+          padding-bottom: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Реклама и связи с общественностью</h1>
+
+      <div class="authors-block">
+        <p><strong>Выполнили студентки 1 курса<br>Гуманитарного факультета:</strong></p>
+        <p>Дудырина Кристина<br>Золотарева Мария<br>Лихая Олеся<br>Поправка Алина</p>
+      </div>
+
+      <div class="content-block">
+        <p>Направление «Реклама и связи с общественностью» обеспечивает подготовку специалистов, способных создавать и поддерживать имидж и деловую репутацию, организовывать и проводить рекламные и PR‑кампании, взаимодействовать со СМИ, проводить социологические и маркетинговые исследования, разрабатывать и реализовывать коммуникационную стратегию в государственных структурах, коммерческих и некоммерческих организациях, средствах массовой информации.</p>
+        
+        <p>Обучение проводится при непосредственном участии представителей организаций – партнеров кафедры, которые выступают с лекциями, проводят мастер‑классы, входят в государственную аттестационную комиссию по защитам дипломных работ.</p>
+        
+        <p>Практики проводятся в ведущих коммуникационных агентствах, на предприятиях и в СМИ Санкт‑Петербурга, благодаря чему студенты получают возможность принять участие в многочисленных мероприятиях и проектах, организованных кафедрой «Связи с общественностью» и ее партнерами, в том числе и зарубежными.</p>
+        
+        <p>По признанию профессионального сообщества кафедра связей с общественностью «ЛЭТИ» остается одним из лучших мест для получения образования в сфере бизнес‑коммуникаций не только в Санкт‑Петербурге, но и в России.</p>
+
+        <h2>1. Реклама и связи с общественностью</h2>
+        <ol>
+          <li>
+            <p><strong>1.1 Определение рекламы</strong> - <a href="https://adindustry.ru/doc/1120" target="_blank">https://adindustry.ru/doc/1120</a></p>
+          </li>
+          <li>
+            <p><strong>1.2 Функции рекламы</strong> - <a href="https://adindustry.ru/doc/1121" target="_blank">https://adindustry.ru/doc/1121</a></p>
+          </li>
+        </ol>
+
+        <h2>2. Обучение рекламе в разных вузах Санкт‑Петербурга</h2>
+        <ol>
+          <li>
+            <p><strong>2.1 СПБГЭУ</strong> - <a href="https://unecon.ru/education/reklama-i-svyazi-s-obshchestvennostyu/" target="_blank">https://unecon.ru/education/reklama-i-svyazi-s-obshchestvennostyu/</a></p>
+          </li>
+          <li>
+            <p><strong>2.2 ГУАП</strong> - <a href="https://hf-guap.ru/k62/advertising/" target="_blank">https://hf-guap.ru/k62/advertising/</a></p>
+          </li>
+          <li>
+            <p><strong>2.3 СПБГУ</strong> - <a href="https://spbu.ru/postupayushchim/programms/bakalavriat/reklama-i-svyazi-s-obshchestvennostyu" target="_blank">https://spbu.ru/postupayushchim/programms/bakalavriat/reklama-i-svyazi-s-obshchestvennostyu</a></p>
+          </li>
+        </ol>
+
+        <h2>3. Виды медийной рекламы</h2>
+        <ol>
+          <li>
+            <p><strong>3.1 Реклама в прессе</strong> - <a href="https://adindustry.ru/press-advertising" target="_blank">https://adindustry.ru/press-advertising</a></p>
+          </li>
+          <li>
+            <p><strong>3.2 Интернет‑реклама</strong> - <a href="https://adindustry.ru/internet-advertising" target="_blank">https://adindustry.ru/internet-advertising</a></p>
+          </li>
+          <li>
+            <p><strong>3.3 Наружная реклама</strong> - <a href="https://adindustry.ru/outdoor-advertising" target="_blank">https://adindustry.ru/outdoor-advertising</a></p>
+          </li>
+        </ol>
+
+        <h2>4. Виды немедийной рекламы</h2>
+        <ol>
+          <li>
+            <p><strong>4.1 Прямая реклама</strong> - <a href="https://adindustry.ru/direct-advertising" target="_blank">https://adindustry.ru/direct-advertising</a></p>
+          </li>
+          <li>
+            <p><strong>4.2 Печатная реклама</strong> - <a href="https://adindustry.ru/print-advertising" target="_blank">https://adindustry.ru/print-advertising</a></p>
+          </li>
+          <li>
+            <p><strong>4.3 Рекламные мероприятия</strong> - <a href="https://adindustry.ru/promotional-activities" target="_blank">https://adindustry.ru/promotional-activities</a></p>
+          </li>
+        </ol>
+      </div>
+
+      <footer>
+        <p>&copy; 2024 Кафедра связей с общественностью «ЛЭТИ». Учебный материал.</p>
+      </footer>
+    </div>
+  </body>
+</html>
